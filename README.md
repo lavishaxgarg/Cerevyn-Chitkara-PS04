@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cerevyn Chitkara — PS04 Azure Support Ticket Automation
 
 **Candidate:** Lavisha Rani  
@@ -127,3 +128,6 @@ See [docs/azure-plan.md](docs/azure-plan.md). Live deployment is optional. The m
 - [ ] Add screenshots and a 3–5 minute demo recording/link.
 - [ ] Push to a public GitHub repository or grant reviewer access.
 - [ ] Include the final commit hash or release tag in the submission.
+=======
+# Cerevyn-Chitkara-PS04
+>>>>>>> e6a79d9434d6217faf1b5aeb5977832c92619e32
