@@ -1,0 +1,32 @@
+name: Deploy to Azure App Service
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Azure login using OIDC
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Build and push image
+        run: |
+          az acr build --registry "${{ vars.AZURE_ACR_NAME }}" \
+            --image cerevyn-ps04:${{ github.sha }} .
+      - name: Configure App Service container
+        run: |
+          az webapp config container set \
+            --name "${{ vars.AZURE_WEBAPP_NAME }}" \
+            --resource-group "${{ vars.AZURE_RESOURCE_GROUP }}" \
+            --docker-custom-image-name "${{ vars.AZURE_ACR_LOGIN_SERVER }}/cerevyn-ps04:${{ github.sha }}" \
+            --docker-registry-server-url "https://${{ vars.AZURE_ACR_LOGIN_SERVER }}"
+          az webapp restart --name "${{ vars.AZURE_WEBAPP_NAME }}" \
+            --resource-group "${{ vars.AZURE_RESOURCE_GROUP }}"

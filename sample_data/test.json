@@ -1,0 +1,52 @@
+[
+  {
+    "ticket_id": "TE01",
+    "category": "Billing",
+    "message": "My card was billed two times this month."
+  },
+  {
+    "ticket_id": "TE02",
+    "category": "Billing",
+    "message": "Can someone check the status of my reimbursement?"
+  },
+  {
+    "ticket_id": "TE03",
+    "category": "Billing",
+    "message": "There is a mistake in the total on my invoice."
+  },
+  {
+    "ticket_id": "TE04",
+    "category": "Technical",
+    "message": "Whenever I launch the application it closes unexpectedly."
+  },
+  {
+    "ticket_id": "TE05",
+    "category": "Technical",
+    "message": "I cannot export a report because the feature errors out."
+  },
+  {
+    "ticket_id": "TE06",
+    "category": "Access",
+    "message": "I am locked out and can't get into my profile."
+  },
+  {
+    "ticket_id": "TE07",
+    "category": "Access",
+    "message": "The one-time code never arrived so sign-in is impossible."
+  },
+  {
+    "ticket_id": "TE08",
+    "category": "General",
+    "message": "What time does your help desk close?"
+  },
+  {
+    "ticket_id": "TE09",
+    "category": "General",
+    "message": "I want to send comments about the service."
+  },
+  {
+    "ticket_id": "TE10",
+    "category": "General",
+    "message": "Please share information about your plans."
+  }
+]

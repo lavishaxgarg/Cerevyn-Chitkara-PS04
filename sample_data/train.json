@@ -1,0 +1,102 @@
+[
+  {
+    "ticket_id": "TR01",
+    "category": "Billing",
+    "message": "I was charged twice for my monthly subscription."
+  },
+  {
+    "ticket_id": "TR02",
+    "category": "Billing",
+    "message": "Please explain the extra fee on my invoice."
+  },
+  {
+    "ticket_id": "TR03",
+    "category": "Billing",
+    "message": "My refund has not arrived yet."
+  },
+  {
+    "ticket_id": "TR04",
+    "category": "Billing",
+    "message": "The amount on my bill is incorrect."
+  },
+  {
+    "ticket_id": "TR05",
+    "category": "Billing",
+    "message": "I need a copy of my payment receipt."
+  },
+  {
+    "ticket_id": "TR06",
+    "category": "Technical",
+    "message": "The mobile app crashes when I open it."
+  },
+  {
+    "ticket_id": "TR07",
+    "category": "Technical",
+    "message": "The website keeps showing an error after saving."
+  },
+  {
+    "ticket_id": "TR08",
+    "category": "Technical",
+    "message": "File upload is not working for my account."
+  },
+  {
+    "ticket_id": "TR09",
+    "category": "Technical",
+    "message": "The dashboard is very slow today."
+  },
+  {
+    "ticket_id": "TR10",
+    "category": "Technical",
+    "message": "I found a bug in the report export feature."
+  },
+  {
+    "ticket_id": "TR11",
+    "category": "Access",
+    "message": "I cannot log in to my account."
+  },
+  {
+    "ticket_id": "TR12",
+    "category": "Access",
+    "message": "Please help me reset my password."
+  },
+  {
+    "ticket_id": "TR13",
+    "category": "Access",
+    "message": "My account is locked after too many attempts."
+  },
+  {
+    "ticket_id": "TR14",
+    "category": "Access",
+    "message": "I did not receive the verification code."
+  },
+  {
+    "ticket_id": "TR15",
+    "category": "Access",
+    "message": "Please enable access for a new employee."
+  },
+  {
+    "ticket_id": "TR16",
+    "category": "General",
+    "message": "What are your customer support hours?"
+  },
+  {
+    "ticket_id": "TR17",
+    "category": "General",
+    "message": "Where can I read the product documentation?"
+  },
+  {
+    "ticket_id": "TR18",
+    "category": "General",
+    "message": "I would like to share feedback about your service."
+  },
+  {
+    "ticket_id": "TR19",
+    "category": "General",
+    "message": "Can you tell me about the available plans?"
+  },
+  {
+    "ticket_id": "TR20",
+    "category": "General",
+    "message": "Who should I contact for a partnership enquiry?"
+  }
+]
